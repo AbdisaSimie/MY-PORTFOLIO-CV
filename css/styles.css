@@ -1,0 +1,106 @@
+
+/******THE 1ST SELECTORS IN CSS CALLED "TAG SELECTOR" 
+FOR ALL BUNCH OF OUR TAGS LIKE IMG, H3 TAGS AS WE MY NEED
+img {
+  background-color: rgb(099, 128, 90);
+}
+******/
+
+/******THE 2ND/ANOTHER SELECTORS IN CSS CALLED "CLASS SELECTOR" 
+FOR SINGLE TAG LIKE IMG, H3 TAGS AS WE NEED
+}
+.AMHATጊሸን {
+  background-color: red;
+}
+
+.MyCertifications {
+  color: green;
+}
+
+.MyCurriculumVitaes {
+  color: yellow;
+}
+
+.MyWorkExperiences {
+  color: red;
+}
+
+.MySkills {
+  color: blue;
+}
+******/
+.AMHGRADUATIONPIC {
+  background-color: green;
+}
+
+.MESERET{
+  border-radius: 10%;
+}
+
+/*THE 3RD/ANOTHER SELECTORS IN CSS CALLED "ID SELECTOR" 
+FOR SINGLE TAG LIKE IMG, H3 TAGS AS WE MY NEED*/
+#AMHATጊሸን {
+  background-color: red;
+}
+#MyCertifications {
+  color: green;
+}
+
+#MyCurriculumVitaes {
+  color: yellow;
+}
+
+#MyWorkExperiences {
+  color: red;
+}
+
+#MySkills {
+  color: blue;
+}
+
+
+
+
+body {
+  background-color: #EAF6F6;
+}
+
+h1 {
+  color: pink;
+  font-size: 50px;
+  font-style: oblique;
+}
+/*HERE FROM THE BELOW
+#AMHNAME{
+  color: yellow;
+})
+WE SEE THAT WHEN WE RUN OUR CODE
+AND SEE THE COLOR OF H1 TAG IT IS SET TO YELLOW BECAUSE 
+"ID" AND OR "CLASS" SELECTORS ARE MORE SPECIFIC 
+AND OVERRIDE THE ABOVE CODE/TAG SELECTOR/H1 TAG SET AS PINK COLOR
+h1 {
+  color: pink;
+  font-size: 50px;
+  font-style: oblique;
+} */
+#AMHNAME{
+  color: yellow;
+}
+
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 0 px;
+  width: 5%;
+}
+
+/* "hover" is one example of pseudo classes which are
+always starts with ':' colun */
+.AMHGRADUATIONPIC:hover {
+  background-color: crimson;}
+
+  #AMHATጊሸን:hover {
+    background-color: darkorchid;}
